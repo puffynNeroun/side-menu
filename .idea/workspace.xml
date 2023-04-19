@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c052a67c-7e01-4cad-8a66-0d8c024e76b3" name="Changes" comment="" />
+    <list default="true" id="c052a67c-7e01-4cad-8a66-0d8c024e76b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/пипетка",
+    "last_opened_file_path": "D:/пипетка/уроки/side-menu",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +54,7 @@
       <workItem from="1681814081567" duration="12778000" />
       <workItem from="1681827534548" duration="3606000" />
       <workItem from="1681895693349" duration="235000" />
+      <workItem from="1681902371177" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1681814355155</created>
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681830800210</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="side menu">
+      <created>1681902443742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681902443742</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +110,7 @@
     <MESSAGE value="section + footer" />
     <MESSAGE value="fix" />
     <MESSAGE value="512 &lt; mv" />
-    <option name="LAST_COMMIT_MESSAGE" value="512 &lt; mv" />
+    <MESSAGE value="side menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="side menu" />
   </component>
 </project>

@@ -1,0 +1,143 @@
+::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(229, 229, 229, 0.96);
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style-image: url("../images/li-icon.png");
+    font-size: 20px;
+    line-height: 230%;
+}
+
+.main__container {
+    margin-top: 50px;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    max-height: 1050px;
+    overflow: scroll;
+}
+
+
+.menu__title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.menu__info {
+}
+
+.img {
+    max-width: 80%;
+    height: auto;
+}
+
+.main-page {
+    padding: 0 24px;
+}
+
+.product {
+    padding-top: 40px;
+}
+
+.col-4 > p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.links-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+    padding-left: 24px;
+    border-left: 1px solid rgba(203, 203, 203, 0.96);
+}
+
+.icon__link {
+    width: 80%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .left-menu {
+        display: flex;
+        flex-direction: column;
+        max-height: 590px;
+        overflow: scroll;
+    }
+
+    .col-4 > p {
+        font-size: 14px;
+    }
+
+    .menu__title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    li {
+        list-style-image: url(../images/li-icon.png);
+        font-size: 15px;
+        line-height: 230%;
+    }
+}
+
+@media (max-width: 767px) {
+    .left-menu {
+        display: flex;
+        flex-direction: column;
+        max-height: 600px;
+        overflow: scroll;
+    }
+
+    .col-4 > p {
+        font-size: 10px;
+    }
+
+    .menu__title {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        list-style-image: none;
+        font-size: 12px;
+        line-height: 230%;
+    }
+
+    .links-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 25px;
+        padding-left: 24px;
+        border-left: 1px solid rgba(203, 203, 203, 0.96);
+    }
+
+    .icon__link {
+        width: 25px;
+    }
+}
